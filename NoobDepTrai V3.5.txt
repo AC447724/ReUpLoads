@@ -1,0 +1,408 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("NoobDepTrai V3.5", "Midnight")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Welcome,Thank for use script♡")
+Section:NewLabel("1: Invisible Gui")
+Section:NewButton("Invisible Gui", "You can invisible", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Invisible%20Gui'))()
+    print("Clicked")
+end)
+Section:NewLabel("2: Shader Gui")
+Section:NewButton("Shader Gui", "Shader in any game", function()
+loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'), true))()
+    print("Clicked")
+end)
+Section:NewLabel("3: Infinite Yeild")
+Section:NewButton("Infinite Yeild", "Fe Admin Commands", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Infinite-Yeild-8192"))()
+    print("Clicked")
+end) 
+Section:NewLabel("4: Fly Gui")
+Section:NewButton("Fly Gui V3", "You can FLYING", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fly-v3-7412"))()
+    print("Clicked")
+end)
+Section:NewLabel("5: DropItems Gui")
+Section:NewButton("DropItems", "Drop any item(No any game)", function()
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local DropGUI = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local DropTool = Instance.new("TextButton")
+local Equip = Instance.new("TextButton")
+local Version = Instance.new("TextButton")
+local Cred = Instance.new("TextButton")
+
+--Properties:
+
+DropGUI.Name = "Drop GUI"
+DropGUI.Parent = game.CoreGui
+DropGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = DropGUI
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.0809101239, 0, 0.203790441, 0)
+main.Size = UDim2.new(0, 150, 0, 128)
+main.Active = true
+main.Draggable = true
+
+DropTool.Name = "Drop Tool"
+DropTool.Parent = main
+DropTool.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+DropTool.Position = UDim2.new(0.0597826242, 0, 0.119906127, 0)
+DropTool.Size = UDim2.new(0, 55, 0, 50)
+DropTool.Font = Enum.Font.SourceSans
+DropTool.Text = "Drop"
+DropTool.TextColor3 = Color3.fromRGB(0, 0, 0)
+DropTool.TextScaled = true
+DropTool.TextSize = 14.000
+DropTool.TextWrapped = true
+DropTool.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.Workspace
+end)
+
+Equip.Name = "Equip"
+Equip.Parent = main
+Equip.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Equip.Position = UDim2.new(0.55251956, 0, 0.119906083, 0)
+Equip.Size = UDim2.new(0, 58, 0, 50)
+Equip.Font = Enum.Font.SourceSans
+Equip.Text = "Equip"
+Equip.TextColor3 = Color3.fromRGB(0, 0, 0)
+Equip.TextScaled = true
+Equip.TextSize = 14.000
+Equip.TextWrapped = true
+Equip.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
+end)
+
+Version.Name = "Version"
+Version.Parent = main
+Version.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Version.Position = UDim2.new(0, 0, 0.999885917, 0)
+Version.Size = UDim2.new(0, 151, 0, 34)
+Version.Font = Enum.Font.SourceSans
+Version.Text = "Version 1"
+Version.TextColor3 = Color3.fromRGB(0, 0, 0)
+Version.TextScaled = true
+Version.TextSize = 14.000
+Version.TextWrapped = true
+
+Cred.Name = "Cred"
+Cred.Parent = main
+Cred.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Cred.Position = UDim2.new(0, 0, -0.266169071, 0)
+Cred.Size = UDim2.new(0, 151, 0, 34)
+Cred.Font = Enum.Font.SourceSans
+Cred.Text = "Script made by WarriorRoberr"
+Cred.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cred.TextSize = 14.000
+Cred.TextWrapped = true
+    print("Clicked")
+end)
+Section:NewLabel("6: Fe sword man fling( require hat )")
+Section:NewButton("Sword Man Fling", "No any game!", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe./main/Sword%20man'),true))()
+    print("Clicked")
+end)
+Section:NewLabel("7: Shiftlock mobile")
+Section:NewButton("ShiftLock","ShiftLock on mobile :D",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/CjNsnSDy'))()
+    print("Clicked")
+end)
+Section:NewLabel("8: Pendulum hub")
+Section:NewButton("Pendulum hub","OP",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+    print("Clicked")
+end)
+
+-- Misc
+
+local Tab = Window:NewTab("Misc")
+local Section = Tab:NewSection("Welcome,Thank for use script")
+Section:NewLabel("Boost Speed and JumpPower")
+Section:NewToggle("Speed Boost", "Boost your speed", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+    else
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end
+end)
+Section:NewToggle("JumpPower Boost", "Boost your jumppower", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+    else
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
+end)
+Section:NewLabel("Custom Speed and JumpPower")
+Section:NewSlider("Custom Speed", "Custom your speed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+Section:NewSlider("Custom JumpPower", "Custom your JumpPower", 500, 500, function(j) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = j
+end)
+Section:NewLabel("Hitbox and Esp")
+Section:NewButton("Hitbox", "High hitbox players", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()
+    print("Clicked")
+end)
+Section:NewButton("Esp", "Esp all players", function()
+local FillColor = Color3.fromRGB(000,250,000)
+local DepthMode = "AlwaysOnTop"
+local FillTransparency = 0.5
+local OutlineColor = Color3.fromRGB(255,255,255)
+local OutlineTransparency = 0
+
+local CoreGui = game:FindService("CoreGui")
+local Players = game:FindService("Players")
+local lp = Players.LocalPlayer
+local connections = {}
+
+local Storage = Instance.new("Folder")
+Storage.Parent = CoreGui
+Storage.Name = "Highlight_Storage"
+
+local function Highlight(plr)
+    local Highlight = Instance.new("Highlight")
+    Highlight.Name = plr.Name
+    Highlight.FillColor = FillColor
+    Highlight.DepthMode = DepthMode
+    Highlight.FillTransparency = FillTransparency
+    Highlight.OutlineColor = OutlineColor
+    Highlight.OutlineTransparency = 0
+    Highlight.Parent = Storage
+    
+    local plrchar = plr.Character
+    if plrchar then
+        Highlight.Adornee = plrchar
+    end
+
+    connections[plr] = plr.CharacterAdded:Connect(function(char)
+        Highlight.Adornee = char
+    end)
+end
+
+Players.PlayerAdded:Connect(Highlight)
+for i,v in next, Players:GetPlayers() do
+    Highlight(v)
+end
+
+Players.PlayerRemoving:Connect(function(plr)
+    local plrname = plr.Name
+    if Storage[plrname] then
+        Storage[plrname]:Destroy()
+    end
+    if connections[plr] then
+        connections[plr]:Disconnect()
+    end
+end)
+    print("Clicked")
+end)
+Section:NewLabel("Anti")
+Section:NewButton("Anti Fling","Anti Fling",function()
+-- // Constants \\ --
+-- [ Services ] --
+local Services = setmetatable({}, {__index = function(Self, Index)
+local NewService = game.GetService(game, Index)
+if NewService then
+Self[Index] = NewService
+end
+return NewService
+end})
+
+-- [ LocalPlayer ] --
+local LocalPlayer = Services.Players.LocalPlayer
+
+-- // Functions \\ --
+local function PlayerAdded(Player)
+   local Detected = false
+   local Character;
+   local PrimaryPart;
+
+   local function CharacterAdded(NewCharacter)
+       Character = NewCharacter
+       repeat
+           wait()
+           PrimaryPart = NewCharacter:FindFirstChild("HumanoidRootPart")
+       until PrimaryPart
+       Detected = false
+   end
+
+   CharacterAdded(Player.Character or Player.CharacterAdded:Wait())
+   Player.CharacterAdded:Connect(CharacterAdded)
+   Services.RunService.Heartbeat:Connect(function()
+       if (Character and Character:IsDescendantOf(workspace)) and (PrimaryPart and PrimaryPart:IsDescendantOf(Character)) then
+           if PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 or PrimaryPart.AssemblyLinearVelocity.Magnitude > 100 then
+               if Detected == false then
+                   game.StarterGui:SetCore("ChatMakeSystemMessage", {
+                       Text = "Fling Exploit detected, Player: " .. tostring(Player);
+                       Color = Color3.fromRGB(255, 200, 0);
+                   })
+               end
+               Detected = true
+               for i,v in ipairs(Character:GetDescendants()) do
+                   if v:IsA("BasePart") then
+                       v.CanCollide = false
+                       v.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+                       v.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+                       v.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0)
+                   end
+               end
+               PrimaryPart.CanCollide = false
+               PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+               PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+               PrimaryPart.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0)
+           end
+       end
+   end)
+end
+
+-- // Event Listeners \\ --
+for i,v in ipairs(Services.Players:GetPlayers()) do
+   if v ~= LocalPlayer then
+       PlayerAdded(v)
+   end
+end
+Services.Players.PlayerAdded:Connect(PlayerAdded)
+
+local LastPosition = nil
+Services.RunService.Heartbeat:Connect(function()
+   pcall(function()
+       local PrimaryPart = LocalPlayer.Character.PrimaryPart
+       if PrimaryPart.AssemblyLinearVelocity.Magnitude > 250 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 250 then
+           PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+           PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+           PrimaryPart.CFrame = LastPosition
+
+           game.StarterGui:SetCore("ChatMakeSystemMessage", {
+               Text = "You were flung. Neutralizing velocity.";
+               Color = Color3.fromRGB(255, 0, 0);
+           })
+       elseif PrimaryPart.AssemblyLinearVelocity.Magnitude < 50 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 then
+           LastPosition = PrimaryPart.CFrame
+       end
+   end)
+end)
+    print("Clicked")
+end)
+Section:NewButton("Anti Lag", "Boost your FPS", function()
+local ToDisable = {
+ Textures = true,
+ VisualEffects = true,
+ Parts = true,
+ Particles = true,
+ Sky = true
+}
+
+local ToEnable = {
+ FullBright = false
+}
+
+local Stuff = {}
+
+for _, v in next, game:GetDescendants() do
+ if ToDisable.Parts then
+  if v:IsA("Part") or v:IsA("Union") or v:IsA("BasePart") then
+   v.Material = Enum.Material.SmoothPlastic
+   table.insert(Stuff, 1, v)
+  end
+ end
+ 
+ if ToDisable.Particles then
+  if v:IsA("ParticleEmitter") or v:IsA("Smoke") or v:IsA("Explosion") or v:IsA("Sparkles") or v:IsA("Fire") then
+   v.Enabled = false
+   table.insert(Stuff, 1, v)
+  end
+ end
+ 
+ if ToDisable.VisualEffects then
+  if v:IsA("BloomEffect") or v:IsA("BlurEffect") or v:IsA("DepthOfFieldEffect") or v:IsA("SunRaysEffect") then
+   v.Enabled = false
+   table.insert(Stuff, 1, v)
+  end
+ end
+ 
+ if ToDisable.Textures then
+  if v:IsA("Decal") or v:IsA("Texture") then
+   v.Texture = ""
+   table.insert(Stuff, 1, v)
+  end
+ end
+ 
+ if ToDisable.Sky then
+  if v:IsA("Sky") then
+   v.Parent = nil
+   table.insert(Stuff, 1, v)
+  end
+ end
+end
+
+game:GetService("TestService"):Message("Effects Disabler Script : Successfully disabled "..#Stuff.." assets / effects. Settings :")
+
+for i, v in next, ToDisable do
+ print(tostring(i)..": "..tostring(v))
+end
+
+if ToEnable.FullBright then
+    local Lighting = game:GetService("Lighting")
+    
+    Lighting.FogColor = Color3.fromRGB(255, 255, 255)
+    Lighting.FogEnd = math.huge
+    Lighting.FogStart = math.huge
+    Lighting.Ambient = Color3.fromRGB(255, 255, 255)
+    Lighting.Brightness = 5
+    Lighting.ColorShift_Bottom = Color3.fromRGB(255, 255, 255)
+    Lighting.ColorShift_Top = Color3.fromRGB(255, 255, 255)
+    Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
+    Lighting.Outlines = true
+end
+     print("Clicked")
+end)
+Section:NewButton("Anti Afk", "Anti Afk", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/batusz/main/roblox/__Anti__Afk__Script__", true))()
+     print("Clicked")
+end)
+Section:NewButton("Anti Fall", "Anti Fall", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/AntiFall/main/Script"))() 
+     print("Clicked")
+end)
+Section:NewLabel("Custom your Speed/JumpPower-(Textbox)")
+Section:NewTextBox("Speed-Txt", "Custom your speed", function(txt)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+	print(txt)
+end)
+Section:NewTextBox("JumpPower-Txt", "Custom your JumpPower", function(txt)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
+	print(txt)
+end)
+
+-- Games
+
+local Tab = Window:NewTab("Games")
+local Section = Tab:NewSection("Welcome,Thank for use script")
+Section:NewLabel("1: Blade ball")
+Section:NewButton("Blade Ball", "LuyHub", function()
+loadstring(game:HttpGet('https://shz.al/~LUYHUB'))()
+    print("Clicked")
+end)
+Section:NewLabel("2: Blox fruit")
+Section:NewButton("Blox Fruit", "Speed Hub(Reuire key)", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))() 
+    print("Clicked")
+end)
+
+-- Credit
+
+local Tab = Window:NewTab("Credit")
+local Section = Tab:NewSection("Welcome,Thank for use script")
+Section:NewLabel("Script by: NoobDepTrai")
+Section:NewLabel("Script by: Đỗ Minh Quang")
